@@ -1,7 +1,7 @@
 import Fab from "@material-ui/core/Fab";
 import TextField from "@material-ui/core/TextField";
-import RemoveIcon from '@material-ui/icons/Remove';
-import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from "@material-ui/icons/Remove";
+import AddIcon from "@material-ui/icons/Add";
 
 import { makeStyles } from "@material-ui/core/styles";
 import react, { useState, useEffect } from "react";
@@ -9,7 +9,7 @@ import react, { useState, useEffect } from "react";
 const useStyles = makeStyles((theme) => ({
   container: {
     display: "flex",
-    alignItems: "center", 
+    alignItems: "center",
     justifyContent: "center",
   },
   fab: {
@@ -59,25 +59,27 @@ function Inputs({ title, value }) {
 
   return (
     <div className={classes.container}>
-      <Fab
-        size="small"
-        // color="primary"
-        className={classes.fab}
-        onClick={decrement}
-      >
-        <RemoveIcon color="secondary"/>
-      </Fab>
-      <TextField
-        type="number"
-        onChange={handleChange}
-        value={inputValue}
-        defaultValue={0}
-        label={title}
-        className={classes.textField}
-      />
-      <Fab size="small" onClick={increment}>
-        <AddIcon color="primary"/>
-      </Fab>
+      <div>
+        <Fab
+          size="small"
+          // color="primary"
+          className={classes.fab}
+          onClick={decrement}
+        >
+          <RemoveIcon color="secondary" />
+        </Fab>
+        <TextField
+          type="number"
+          onChange={handleChange}
+          value={inputValue}
+          defaultValue={0}
+          label={title}
+          className={classes.textField}
+        />
+        <Fab size="small" onClick={increment}>
+          <AddIcon color="primary" />
+        </Fab>
+      </div>
     </div>
   );
 }
