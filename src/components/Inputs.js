@@ -4,7 +4,7 @@ import RemoveIcon from "@material-ui/icons/Remove";
 import AddIcon from "@material-ui/icons/Add";
 
 import { makeStyles } from "@material-ui/core/styles";
-import react, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -41,7 +41,7 @@ function Inputs({ title, value }) {
 
   useEffect(() => {
     setInputValue(value);
-  }, []);
+  }, [value]);
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
