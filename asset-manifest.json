@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Mizumi/static/css/main.106baaae.chunk.css",
+    "main.js": "/Mizumi/static/js/main.5acd1bdb.chunk.js",
+    "main.js.map": "/Mizumi/static/js/main.5acd1bdb.chunk.js.map",
+    "runtime-main.js": "/Mizumi/static/js/runtime-main.300cfef7.js",
+    "runtime-main.js.map": "/Mizumi/static/js/runtime-main.300cfef7.js.map",
+    "static/js/2.e7ee11fb.chunk.js": "/Mizumi/static/js/2.e7ee11fb.chunk.js",
+    "static/js/2.e7ee11fb.chunk.js.map": "/Mizumi/static/js/2.e7ee11fb.chunk.js.map",
+    "index.html": "/Mizumi/index.html",
+    "static/css/main.106baaae.chunk.css.map": "/Mizumi/static/css/main.106baaae.chunk.css.map",
+    "static/js/2.e7ee11fb.chunk.js.LICENSE.txt": "/Mizumi/static/js/2.e7ee11fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.300cfef7.js",
+    "static/js/2.e7ee11fb.chunk.js",
+    "static/css/main.106baaae.chunk.css",
+    "static/js/main.5acd1bdb.chunk.js"
+  ]
+}
