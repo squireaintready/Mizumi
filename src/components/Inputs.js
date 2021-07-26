@@ -43,7 +43,7 @@ function Inputs({ title, value }) {
     setInputValue(value);
   }, [value]);
 
-  const handleChange = (e) => {
+   const handleChange = (e) => {
     setInputValue(e.target.value);
   };
 
